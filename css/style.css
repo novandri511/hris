@@ -3,7 +3,7 @@
     --black: #272D3B;
     --red: #ED176F;
     --coral: #F7817F;
-    --gradient: linear-gradient(90deg, var(--red), var(--coral));
+    --gradient: linear-gradient(90deg, #3051af, #6894e0);
 }
 
 * {
@@ -51,7 +51,7 @@ section {
 
 .heading {
     text-align: center;
-    color: transparent;
+    color: #3051af;
     background: var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
@@ -151,7 +151,7 @@ header .navbar a:hover {
     margin: 1rem;
     border-radius: .5rem;
     text-align: center;
-    background: rgba(237, 23, 111, .05);
+    background: #e3edfd;
     padding: 1rem;
     flex: 1 1 30rem;
     cursor: pointer;
@@ -461,7 +461,7 @@ header .navbar a:hover {
 @media (max-width:768px) {
     .image-banner {
         width: 300px!important;
-        height: 350px!important;
+        height: 250px!important;
         margin-top: -50px;
     }
     #menu-bar {
